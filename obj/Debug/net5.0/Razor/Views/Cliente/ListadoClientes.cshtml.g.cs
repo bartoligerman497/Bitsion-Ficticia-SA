@@ -41,7 +41,7 @@ using Bitsion_Ficticia_S.A.Models.DTO;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"086175a34cb40a604edc7bf31b617fbb35fca356", @"/Views/Cliente/ListadoClientes.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6371f6b1df7f0f2e8c374aff0a6598c645485e2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9cd0a9de60788bb02865db5658e8f41652452a31", @"/Views/_ViewImports.cshtml")]
     public class Views_Cliente_ListadoClientes : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DTOModel>
     {
         #pragma warning disable 1998
