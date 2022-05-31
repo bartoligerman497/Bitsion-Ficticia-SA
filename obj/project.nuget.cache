@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vqRz81+lL1gDtsRmYiAnbc/r9oRgwzi5VrKb1nBOoueB9UxNK9wSQp+LRteYnndWMLtd0D3nvktKWKtbXbuAhw==",
+  "dgSpecHash": "ldA9pyShaUxHr07JA7LXMY0uUfF3WoxjOL3zE/EM0oTS5etOsn/HXRpIfesv4DQhq0UEY15otLslteHhLFgcxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\Bitsion-Ficticia-S.A.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\German\\.nuget\\packages\\mysqlconnector\\2.1.9\\mysqlconnector.2.1.9.nupkg.sha512"
+  ],
   "logs": []
 }
