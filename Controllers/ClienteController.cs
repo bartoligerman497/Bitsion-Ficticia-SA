@@ -3,10 +3,7 @@ using Bitsion_Ficticia_S.A.Models.Cliente.Genero;
 using Bitsion_Ficticia_S.A.Models.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Bitsion_Ficticia_S.A.Controllers
 {

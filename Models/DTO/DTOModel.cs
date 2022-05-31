@@ -1,8 +1,5 @@
 ﻿using Bitsion_Ficticia_S.A.Models.Cliente;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Bitsion_Ficticia_S.A.Models.DTO
 {

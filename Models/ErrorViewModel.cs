@@ -1,5 +1,3 @@
-using System;
-
 namespace Bitsion_Ficticia_S.A.Models
 {
     public class ErrorViewModel
