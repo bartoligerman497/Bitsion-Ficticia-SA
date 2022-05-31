@@ -1,4 +1,5 @@
-﻿using MySqlConnector;
+﻿using Bitsion_Ficticia_S.A.Models.DTO;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -150,18 +151,17 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
                 @"
                         UPDATE cliente
                         SET
-                          nombre = '' -- nombre - VARCHAR(255)
-                         ,apellido = '' -- apellido - VARCHAR(255)
-                         ,dni = '' -- dni - VARCHAR(255)
-                         ,edad = '' -- edad - VARCHAR(255)
-                         ,idGenero = 0 -- idGenero - INT
-                         ,maneja = '' -- maneja - VARCHAR(255)
-                         ,lentes = '' -- lentes - VARCHAR(255)
-                         ,diabetico = '' -- diabetico - VARCHAR(255)
-                         ,enfermedades = '' -- enfermedades - VARCHAR(255)
-                         ,activo = '' -- activo - VARCHAR(255)
+                          nombre = @nombre -- nombre - VARCHAR(255)
+                         ,apellido = @apellido -- apellido - VARCHAR(255)
+                         ,dni = @dni -- dni - VARCHAR(255)
+                         ,edad = @edad -- edad - VARCHAR(255)
+                         ,idGenero = @genero -- idGenero - INT
+                         ,maneja = @maneja -- maneja - VARCHAR(255)
+                         ,lentes = @lentes -- lentes - VARCHAR(255)
+                         ,diabetico = @diabetico -- diabetico - VARCHAR(255)
+                         ,enfermedades = @enfermedades -- enfermedades - VARCHAR(255)
                         WHERE
-                          idCliente = 0 -- idCliente - INT NOT NULL
+                          idCliente = @idCliente -- idCliente - INT NOT NULL
                         ";
 
             MySqlCommand command = new MySqlCommand(consulta, conexion);
@@ -194,7 +194,7 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
             }
         }
 
-        public bool EliminarCliente(int idCliente)
+        public bool DeshabilitarCliente(int idCliente)
         {
             int filasAfectadas = 0;
 
@@ -203,7 +203,7 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
             string consulta = @"
                                 Update cliente
                                 set activo = false
-                                where idCliente = @idAlumno
+                                where idCliente = @idCliente
                             ";
 
             MySqlCommand command = new();
@@ -229,9 +229,9 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
             }
         }
 
-        public ClienteModel ObtenerClientexIdCliente(int idCliente)
+        public DTOModel ObtenerClientexIdCliente(int? idCliente)
         {
-            ClienteModel cliente = null;
+            DTOModel dto = new();
 
             String consulta =
                               @"	SELECT
@@ -250,7 +250,8 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
 	                            FROM cliente
 	                              INNER JOIN genero
 	                                ON cliente.idGenero = genero.idGenero
-	                            WHERE cliente.activo = 1;";
+	                            WHERE cliente.activo = 1 and
+                                 cliente.idCliente = @idCliente;";
 
             MySqlConnection conexion = new MySqlConnection(conexionString);
 
@@ -268,7 +269,7 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
             {
                 Console.WriteLine(Convert.IsDBNull(reader.GetValue("idCliente")) ? 0 : reader.GetInt32("idCliente"));
 
-                cliente = new();
+                ClienteModel cliente = new();
 
                 cliente.IdCliente = Convert.IsDBNull(reader.GetValue("idCliente")) ? 0 : reader.GetInt32("idCliente");
                 cliente.Nombre = Convert.IsDBNull(reader.GetValue("nombre")) ? string.Empty : reader.GetString("nombre");
@@ -286,11 +287,13 @@ namespace Bitsion_Ficticia_S.A.Models.Cliente
                 cliente.Diabetico = Convert.IsDBNull(reader.GetValue("diabetico")) ? false : reader.GetBoolean("diabetico");
                 cliente.Enfermedades = Convert.IsDBNull(reader.GetValue("enfermedades")) ? string.Empty : reader.GetString("enfermedades");
                 cliente.ActivoCliente = Convert.IsDBNull(reader.GetValue("activoCliente")) ? false : reader.GetBoolean("activoCliente");
+
+                dto.Cliente = cliente;
             }
             reader.Close();
             conexion.Close();
 
-            return cliente;
+            return dto;
         }
 
         public int ObtenerUltimoIDCliente()
