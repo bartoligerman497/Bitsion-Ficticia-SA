@@ -1,11 +1,11 @@
-﻿using Bitsion_Ficticia_S.A.Models.Cliente;
-using Bitsion_Ficticia_S.A.Models.Cliente.Genero;
-using Bitsion_Ficticia_S.A.Models.DTO;
+﻿using BitsionFicticiaSA.Models.Cliente;
+using BitsionFicticiaSA.Models.Cliente.Genero;
+using BitsionFicticiaSA.Models.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace Bitsion_Ficticia_S.A.Controllers
+namespace BitsionFicticiaSA.Controllers
 {
     public class ClienteController : Controller
     {

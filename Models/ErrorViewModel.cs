@@ -1,4 +1,4 @@
-namespace Bitsion_Ficticia_S.A.Models
+namespace BitsionFicticiaSA.Models
 {
     public class ErrorViewModel
     {

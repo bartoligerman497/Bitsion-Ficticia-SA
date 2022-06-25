@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Bitsion_Ficticia_S.A
+namespace BitsionFicticiaSA
 {
     public class Program
     {

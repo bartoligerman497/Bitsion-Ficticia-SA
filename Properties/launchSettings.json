@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Bitsion_Ficticia_S.A": {
+    "BitsionFicticiaSA": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

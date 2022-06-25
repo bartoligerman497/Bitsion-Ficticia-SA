@@ -1,4 +1,4 @@
-﻿namespace Bitsion_Ficticia_S.A.Models.Cliente
+﻿namespace BitsionFicticiaSA.Models.Cliente
 {
     public class GeneroModel
     {

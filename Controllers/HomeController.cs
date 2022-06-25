@@ -1,9 +1,9 @@
-﻿using Bitsion_Ficticia_S.A.Models;
+﻿using BitsionFicticiaSA.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace Bitsion_Ficticia_S.A.Controllers
+namespace BitsionFicticiaSA.Controllers
 {
     public class HomeController : Controller
     {

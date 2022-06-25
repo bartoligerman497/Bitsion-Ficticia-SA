@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace Bitsion_Ficticia_S.A.Models.Cliente.Genero
+namespace BitsionFicticiaSA.Models.Cliente.Genero
 {
     public class GBDGenero
     {

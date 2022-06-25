@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Bitsion_Ficticia_S.A
+namespace BitsionFicticiaSA
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
-﻿using Bitsion_Ficticia_S.A.Models.Cliente;
+﻿using BitsionFicticiaSA.Models.Cliente;
 using System.Collections.Generic;
 
-namespace Bitsion_Ficticia_S.A.Models.DTO
+namespace BitsionFicticiaSA.Models.DTO
 {
     public class DTOModel
     {

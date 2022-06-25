@@ -1,10 +1,10 @@
-﻿using Bitsion_Ficticia_S.A.Models.DTO;
+﻿using BitsionFicticiaSA.Models.DTO;
 using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace Bitsion_Ficticia_S.A.Models.Cliente
+namespace BitsionFicticiaSA.Models.Cliente
 {
     public class GBDCliente
     {
