@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\BitsionFicticiaSA.csproj": {}
+    "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\BitsionFicticiaSA.csproj": {
+    "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\BitsionFicticiaSA.csproj",
+        "projectUniqueName": "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj",
         "projectName": "BitsionFicticiaSA",
-        "projectPath": "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\BitsionFicticiaSA.csproj",
+        "projectPath": "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj",
         "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German\\Documents\\GitHub\\Bitsion-Ficticia-S.A\\obj\\",
+        "outputPath": "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
