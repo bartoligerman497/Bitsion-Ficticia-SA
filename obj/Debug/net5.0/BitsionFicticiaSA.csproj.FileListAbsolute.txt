@@ -5,7 +5,6 @@ C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicti
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.runtimeconfig.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.runtimeconfig.dev.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.dll
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\ref\BitsionFicticiaSA.dll
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.pdb
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.Views.dll
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\bin\Debug\net5.0\BitsionFicticiaSA.Views.pdb
@@ -94,9 +93,8 @@ C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicti
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.RazorAssemblyInfo.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.RazorAssemblyInfo.cs
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\staticwebassets\BitsionFicticiaSA.StaticWebAssets.Manifest.cache
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\staticwebassets\BitsionFicticiaSA.StaticWebAssets.xml
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\scopedcss\bundle\BitsionFicticiaSA.styles.css
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\staticwebassets\BitsionFicticiaSA.StaticWebAssets.Manifest.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.TagHelpers.input.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.TagHelpers.output.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.RazorCoreGenerate.cache
@@ -115,6 +113,7 @@ C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicti
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.Views.pdb
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.csproj.CopyComplete
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.dll
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\ref\BitsionFicticiaSA.dll
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\refint\BitsionFicticiaSA.dll
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.pdb
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\BitsionFicticiaSA.genruntimeconfig.cache
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\obj\Debug\net5.0\ref\BitsionFicticiaSA.dll
