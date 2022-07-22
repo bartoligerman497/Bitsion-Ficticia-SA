@@ -14,8 +14,18 @@
         private string enfermedades;
         private bool activoCliente;
 
-        public ClienteModel(int idCliente, string nombre, string apellido, string dni, int edad, GeneroModel genero, bool maneja,
-            bool usaLentes, bool diabetico, string enfermedades, bool activoCliente)
+        public ClienteModel(
+            int idCliente,
+            string nombre,
+            string apellido,
+            string dni,
+            int edad,
+            GeneroModel genero,
+            bool maneja,
+            bool usaLentes,
+            bool diabetico,
+            string enfermedades,
+            bool activoCliente)
         {
             this.IdCliente = idCliente;
             this.Nombre = nombre;
