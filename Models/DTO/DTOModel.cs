@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 namespace BitsionFicticiaSA.Models.DTO;
+
 public class DTOModel
 {
     private List<ClienteModel> listadoClientes;

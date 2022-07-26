@@ -1,4 +1,5 @@
 ﻿namespace BitsionFicticiaSA.Models.Cliente;
+
 public class ClienteModel
 {
     private int idCliente;
