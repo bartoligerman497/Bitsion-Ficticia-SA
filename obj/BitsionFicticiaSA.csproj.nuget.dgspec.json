@@ -46,7 +46,7 @@
             },
             "MySqlConnector": {
               "target": "Package",
-              "version": "[2.1.9, )"
+              "version": "[2.1.11, )"
             },
             "jQuery": {
               "target": "Package",

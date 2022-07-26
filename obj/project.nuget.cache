@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2xkUh9b5hgKFqlILas4C6tCUBb7J/NnA2hFcrjQpGhhNUBTsesYOTe13F3Ydf05ZXcWdoWK6bFanPKR4wVvMVw==",
+  "dgSpecHash": "2WqBOkD4R3Rpr+caW2+spgShV47BcwdkyDse1tdZsdpJI9gGUG0N5/XuSp8dDzi7ZIvUlEFWw2R+/KzmmEwSoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\German\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\5.0.2\\microsoft.visualstudio.web.codegeneration.utils.5.0.2.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\German\\.nuget\\packages\\mysqlconnector\\2.1.9\\mysqlconnector.2.1.9.nupkg.sha512",
+    "C:\\Users\\German\\.nuget\\packages\\mysqlconnector\\2.1.11\\mysqlconnector.2.1.11.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
