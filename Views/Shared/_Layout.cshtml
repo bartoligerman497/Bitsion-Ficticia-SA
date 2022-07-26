@@ -4,21 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - BitsionFicticiaSA</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/lib/Bootstrap-5.2.0-dist/css/bootstrap.css" />
 
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" type="text/css" href="~/lib/Bootstrap-5.2.0-dist/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="~/lib/DataTables-1.12.1/css/dataTables.bootstrap5.css"/>
 
-
-
-        <script src="~/lib/JQuery/jquery-3.6.0.min.js"></script>
-        
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.css"/>
- 
-        <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.js"></script>
-
-        
-        <script src="~/js/site.js" asp-append-version="true"></script>
-
+<script type="text/javascript" src="~/lib/JQuery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="~/lib/Bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="~/lib/DataTables-1.12.1/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="~/lib/DataTables-1.12.1/js/dataTables.bootstrap5.js"></script> 
 
 </head>
 <body>
@@ -55,8 +49,6 @@
             &copy; 2022 - BitsionFicticiaSA @*<a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
         </div>
     </footer>
-    
-
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
