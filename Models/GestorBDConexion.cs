@@ -1,4 +1,5 @@
 ﻿namespace BitsionFicticiaSA.Models;
+
 public static class GestorBDConexion
 {
     private static string conexionString;
