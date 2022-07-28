@@ -7,13 +7,11 @@ namespace BitsionFicticiaSA.Models.Cliente.Genero;
 
 public class GBDGenero
 {
-    private string conexionString = "Server=localhost;user=root;password=1234;database=bitsion-ficticia-s.a";
-
     public List<GeneroModel> CargarComboGenero()
     {
         List<GeneroModel> comboGenero = new();
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         String consulta =
                                         @"SELECT

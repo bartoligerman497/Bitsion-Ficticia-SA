@@ -8,13 +8,11 @@ namespace BitsionFicticiaSA.Models.Cliente;
 
 public class GBDCliente
 {
-    private string conexionString = "Server=localhost;user=root;password=1234;database=bitsion-ficticia-s.a";
-
     public List<ClienteModel> CargarListadoClientes()
     {
         List<ClienteModel> listadoClientes = new List<ClienteModel>();
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         string consulta =
             @"	SELECT
@@ -77,7 +75,7 @@ public class GBDCliente
     {
         int filasAfectadas = 0;
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         string consulta =
             @"
@@ -143,7 +141,7 @@ public class GBDCliente
     {
         int filasAfectadas = 0;
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         string consulta =
             @"
@@ -196,7 +194,7 @@ public class GBDCliente
     {
         int filasAfectadas = 0;
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         string consulta = @"
                                 Update cliente
@@ -251,7 +249,7 @@ public class GBDCliente
 	                            WHERE cliente.activo = 1 and
                                  cliente.idCliente = @idCliente;";
 
-        MySqlConnection conexion = new MySqlConnection(conexionString);
+        MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
         MySqlCommand command = new MySqlCommand(consulta, conexion);
         command.CommandType = CommandType.Text;
@@ -300,7 +298,7 @@ public class GBDCliente
 
         try
         {
-            MySqlConnection conexion = new MySqlConnection(conexionString);
+            MySqlConnection conexion = new MySqlConnection(GestorBDConexion.ConexionString);
 
             string consulta =
                 "SELECT " +
