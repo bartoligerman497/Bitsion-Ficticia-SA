@@ -1,18 +1,19 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - BitsionFicticiaSA</title>
 
-<link rel="stylesheet" href="~/css/site.css" />
-<link rel="stylesheet" type="text/css" href="~/lib/Bootstrap-5.2.0-dist/css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="~/lib/DataTables-1.12.1/css/dataTables.bootstrap5.css"/>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/Bootstrap-5.2.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/DataTables-1.12.1/css/dataTables.bootstrap5.css" />
 
-<script type="text/javascript" src="~/lib/JQuery/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="~/lib/Bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="~/lib/DataTables-1.12.1/js/jquery.dataTables.js"></script>
-<script type="text/javascript" src="~/lib/DataTables-1.12.1/js/dataTables.bootstrap5.js"></script> 
+    <script type="text/javascript" src="~/lib/JQuery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="~/lib/Bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="~/lib/DataTables-1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="~/lib/DataTables-1.12.1/js/dataTables.bootstrap5.js"></script>
 
 </head>
 
@@ -21,17 +22,19 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BitsionFicticiaSA</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="ListadoClientes">Listado de Clientes</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente"
+                                asp-action="ListadoClientes">Listado de Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="AltaCliente">Nuevo Cliente</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cliente"
+                                asp-action="AltaCliente">Nuevo Cliente</a>
                         </li>
                     </ul>
                 </div>
@@ -52,4 +55,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
