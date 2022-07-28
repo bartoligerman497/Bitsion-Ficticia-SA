@@ -21,3 +21,10 @@ La aplicación debe contar con (idealmente):
 * Validaciones de negocios (por ejemplo datos obligatorios o dentro de un rango en particular)
 * Base de datos SQL
 * Autenticación
+
+# Imagenes
+
+![Listado Clientes](https://user-images.githubusercontent.com/53313625/181545183-e575d064-f828-46bb-8f44-e519d915069e.png)
+![Nuevo Cliente](https://user-images.githubusercontent.com/53313625/181546710-6daf8db4-0ee5-4946-93de-f4bab3d6d964.png)
+![Editar Cliente](https://user-images.githubusercontent.com/53313625/181547040-319a5b52-8f35-4a40-aa26-76a7935720dd.png)
+![Consultar Cliente](https://user-images.githubusercontent.com/53313625/181547969-a8dc49df-b479-4ff7-b042-6d264c63f757.png)
