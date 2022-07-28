@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[2.1.11, )"
             },
-            "jQuery": {
-              "target": "Package",
-              "version": "[3.6.0, )"
-            },
             "jquery.datatables": {
               "target": "Package",
               "version": "[1.10.15, )"

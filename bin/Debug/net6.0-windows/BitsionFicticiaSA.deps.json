@@ -10,7 +10,6 @@
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.7",
           "MySqlConnector": "2.1.11",
-          "jQuery": "3.6.0",
           "jquery.datatables": "1.10.15"
         },
         "runtime": {
@@ -28,10 +27,10 @@
           }
         }
       },
-      "jQuery/3.6.0": {},
+      "jQuery/1.7.0": {},
       "jquery.datatables/1.10.15": {
         "dependencies": {
-          "jQuery": "3.6.0"
+          "jQuery": "1.7.0"
         }
       },
       "MessagePack/2.1.152": {
@@ -2023,12 +2022,12 @@
       "path": "humanizer.core/2.2.0",
       "hashPath": "humanizer.core.2.2.0.nupkg.sha512"
     },
-    "jQuery/3.6.0": {
+    "jQuery/1.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sSzCTDWn15waSMjDrP21jjgG1j1pwISLaKiVCClwU4XGAmuZt+FScLkdyRvh9ppoIxAW/tJtJBYei+3CAwFQ7g==",
-      "path": "jquery/3.6.0",
-      "hashPath": "jquery.3.6.0.nupkg.sha512"
+      "sha512": "sha512-UEZuBreHZNLao3z9zNPeSadyoPwKDP/5kFh+Mn1Pm9ZS0czk7bv0O6RreloGSIMAfTLZCiigNkuPb2bXKtUM+g==",
+      "path": "jquery/1.7.0",
+      "hashPath": "jquery.1.7.0.nupkg.sha512"
     },
     "jquery.datatables/1.10.15": {
       "type": "package",
