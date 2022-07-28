@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6Dywo3x6KcruGaJFn+dStJQIy88jglPW9AEQf2Acppp8ViiiMFzPhudMjuwOAXrOTNlNSFVKIcjUnFUgDyPElg==",
+  "dgSpecHash": "XS0cF+kOFRfgu9zpArn2+Esxl/jT71SMK+2eFp7bhN4v/d8p983kBoIbMLxV9JsgHrgxBktwdMHdjZ+YKa3peQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\German\\Documents\\GitHub\\BitsionFicticiaSA\\BitsionFicticiaSA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\German\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
-    "C:\\Users\\German\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
-    "C:\\Users\\German\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\German\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
