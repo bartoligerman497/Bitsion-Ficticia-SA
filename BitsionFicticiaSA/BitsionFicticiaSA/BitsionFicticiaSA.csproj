@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>BitsionFicticiaSA</RootNamespace>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <StartupObject>BitsionFicticiaSA.Program</StartupObject>
   </PropertyGroup>
 
@@ -12,7 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
     <PackageReference Include="MySqlConnector" Version="2.1.11" />
   </ItemGroup>
 
