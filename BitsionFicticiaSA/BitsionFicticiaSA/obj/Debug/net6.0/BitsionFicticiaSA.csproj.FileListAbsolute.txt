@@ -1,10 +1,3 @@
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.csproj.AssemblyReference.cache
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.AssemblyInfoInputs.cache
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.AssemblyInfo.cs
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.csproj.CoreCompileInputs.cache
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.RazorAssemblyInfo.cache
-C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.RazorAssemblyInfo.cs
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\appsettings.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\BitsionFicticiaSA.staticwebassets.runtime.json
@@ -14,7 +7,14 @@ C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFict
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\BitsionFicticiaSA.dll
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\BitsionFicticiaSA.pdb
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.csproj.AssemblyReference.cache
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.AssemblyInfoInputs.cache
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.AssemblyInfo.cs
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.csproj.CoreCompileInputs.cache
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.RazorAssemblyInfo.cache
+C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\BitsionFicticiaSA.RazorAssemblyInfo.cs
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\German\Documents\GitHub\BitsionFicticiaSA\BitsionFicticiaSA\BitsionFicticiaSA\obj\Debug\net6.0\scopedcss\bundle\BitsionFicticiaSA.styles.css
